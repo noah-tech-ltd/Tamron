@@ -1,0 +1,34 @@
+section {
+  min-height: 100vh;
+  padding-bottom: 5rem;
+  color: #333;
+
+  > div {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+  }
+
+  nav {
+    height: 100px;
+    background-color: #333;
+  }
+
+  .logo {
+    height: 120px;
+    background: url("../assets/images/logo.png") center no-repeat;
+  }
+
+  h2 {
+    color: #fa0;
+  }
+  
+  h1,h2{
+    font-weight: bold;
+  }
+
+  .btn-outline-light {
+    border: none;
+    background-color: #6d9910;
+  }
+}
